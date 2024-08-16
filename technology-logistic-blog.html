@@ -1,0 +1,695 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Blog Detail</title>
+	<!-- fav icon start -->
+	<link rel="apple-touch-icon" sizes="57x57" href="assets/images/fav/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="assets/images/fav/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/images/fav/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/images/fav/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/images/fav/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="assets/images/fav/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="assets/images/fav/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="assets/images/fav/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/images/fav/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="assets/images/fav/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/images/fav/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="assets/images/fav/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/images/fav/favicon-16x16.png">
+	<link rel="manifest" href="assets/images/fav/manifest.json">
+	<meta name="msapplication-TileColor" content="#214F8A">
+	<meta name="msapplication-TileImage" content="assets/images/fav/ms-icon-144x144.png">
+	<meta name="theme-color" content="#214F8A">
+
+	<!-- fav icon end -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+	<link href="assets/css/slick-theme.css" rel="stylesheet">
+	<link href="assets/css/slick.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+	<link href="assets/css/responsive.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="wraper">
+		<header>
+			<nav class="navbar navbar-expand-lg">
+				<div class="container">
+					<a class="navbar-brand" href="index.html" id="#hero">
+						<figure>
+							<img src="assets/images/Logo-main.svg" alt="logo" class="img-fluid">
+						</figure>
+					</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+						aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse " id="navbarSupportedContent">
+						<ul class="navbar-nav mb-2 mb-lg-0">
+							<!-- <li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="index.html"></a>
+							</li> -->
+							<li class="nav-item dropdown active">
+								<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+									aria-expanded="false">
+									Company
+								</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item" href="about-us.html" id="">About Us </a></li>
+									<li><a class="dropdown-item" href="team.html" id="">EHR Team</a></li>
+
+								</ul>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" href="index.html#solution" role="button">
+									Solutions
+								</a>
+								<!-- <ul class="dropdown-menu">
+									<li><a class="dropdown-item" href="blood-bank-module.html" id="">Blood Bank Solution </a></li>
+									<li><a class="dropdown-item" href="centeral-healthcare-module.html" id="">Central Healthcare Repository  </a></li>
+									<li><a class="dropdown-item" href="health-analytics-module.html" id="">Health Analytics </a></li>
+									<li><a class="dropdown-item" href="healthcare-logistic-module.html" id="">HealthCare Logistic  System</a></li>
+								</ul> -->
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+									aria-expanded="false">
+									Products
+								</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item" href="health-analytics-module.html" id="">Health
+										Analytics </a></li>
+								<li><a class="dropdown-item" href="blood-bank-module.html" id="">Blood Bank Solution
+									</a></li>
+
+
+								<li><a class="dropdown-item" href="healthcare-logistic-module.html" id="">HealthCare
+										Logistic System</a></li>
+								<li><a class="dropdown-item" href="centeral-healthcare-module.html" id="">Central
+										Healthcare Repository </a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+									aria-expanded="false">
+									Services
+								</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item" href="SAP-service.html" id="">SAP IT services </a></li>
+									<li><a class="dropdown-item" href="SAP-service.html" id="">Sales Force </a></li>
+									<li><a class="dropdown-item" href="SAP-service.html" id="">AI Services </a></li>
+									<li><a class="dropdown-item" href="SAP-service.html" id="">Big Data & Analytics </a></li>
+									<li><a class="dropdown-item" href="SAP-service.html" id="">Mobile and Web Application Development </a></li>
+					
+								</ul>
+							</li>
+							<!-- <li class="nav-item">
+								<a class="nav-link" aria-current="page" href="#0">Technology</a>
+							</li> -->
+							<li class="nav-item">
+								<a class="nav-link" aria-current="page" href="blog.html" id="">Blogs</a>
+							</li>
+							<li class="nav-item d-flex align-items-center">
+								<a class="nav-link btn_header" aria-current="page" href="index.html#contact"
+									id="">Request For A Demo</a>
+							</li>
+						</ul>
+
+					</div>
+				</div>
+			</nav>
+		</header>
+		<!-- hero section start here -->
+		<section class="inner_hero hero blog_header">
+			<!-- header start here -->
+
+			<!-- header end here -->
+			<div class="container">
+				<div class="row">
+					<span class="category">Technology</span>
+					<h2 class="sec_title">The Role of Technology in Logistics: How Digitalization is Revolutionizing
+						Healthcare Delivery</h2>
+					<span class="d-flex justify-content-center">
+
+						<span class="post_date">By EHR Logics</span>
+						<span class="post_date ps-2 pe-2">|</span>
+						<span class="post_date">03/04/2023</span>
+					</span>
+				</div>
+			</div>
+		</section>
+		<!-- all blog section start here -->
+		<section class="blog_detail">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-10 mx-auto">
+						<div class="blog_detail_card">
+							<figure class="blog_img">
+								<img src="assets/images/technology-logistic-inner.png" alt="technology"
+									class="img-fluid">
+							</figure>
+							<div class="d-flex align-items-start justify-content-between">
+
+								<div class="card_data">
+
+
+
+									<span class="blog_cap">
+										Effective healthcare logistics is critical for ensuring that patients receive
+										the
+										care
+										they need in a timely and cost-effective manner. By optimizing supply chain
+										management,
+										distribution and transportation, inventory management, emergency response,
+										reverse
+										logistics, and leveraging technology, healthcare organizations can improve
+										patient
+										outcomes, reduce costs, and ensure a more sustainable healthcare system. This is
+										where
+										technology is playing a key role in revolutionizing the logistics and supply
+										chain
+										management in the healthcare industry.
+									</span>
+									<aside>
+										<h3 class="small_title">Supply Chain Management:</h3>
+										<p>Healthcare logistics involves managing the supply chain of medical products
+											from
+											manufacturers to healthcare facilities, ensuring that supplies are available
+											when needed. Effective supply chain management involves the use of
+											technology,
+											such as electronic ordering and tracking systems, to ensure the timely
+											delivery
+											of products and minimize waste.</p>
+									</aside>
+									<aside>
+										<h3 class="small_title">Distribution and Transportation:</h3>
+										<p>Logistics in healthcare refers to the planning, implementation, and control
+											of
+											the movement and storage of medical supplies, equipment, and pharmaceuticals
+											from their point of origin to the point of consumption. It is an essential
+											aspect of the healthcare system as it helps to ensure that patients receive
+											the
+											right treatment, at the right time, and in the right place. Here are some
+											key
+											areas where logistics play a critical role in healthcare:</p>
+										<p>Healthcare logistics involves the efficient transportation and distribution
+											of
+											medical supplies, equipment, and pharmaceuticals from warehouses and
+											distribution centers to healthcare facilities. It includes the selection of
+											the
+											most appropriate mode of transportation and the use of
+											temperature-controlled
+											vehicles for sensitive products like vaccines, blood, and organs</p>
+									</aside>
+									<aside>
+										<h3 class="small_title">Inventory Management: </h3>
+										<p>Healthcare logistics includes the management of inventory levels in
+											healthcare
+											facilities, ensuring that products are available when needed, but minimizing
+											excess stock that can lead to waste and increased costs.</p>
+									</aside>
+									<aside>
+										<h3 class="small_title">Emergency Response:  </h3>
+										<p>Logistics plays a critical role in emergency response situations, such as
+											natural
+											disasters or pandemics, ensuring the timely delivery of medical supplies and
+											equipment to affected areas.</p>
+									</aside>
+									<aside>
+										<h3 class="small_title">Reverse Logistics:  </h3>
+										<p>Healthcare logistics also includes the management of the return and disposal
+											of
+											expired or damaged medical products, ensuring that they are safely disposed
+											of
+											or returned to the manufacturer for recycling.</p>
+									</aside>
+									<aside>
+										<h3 class="small_title">Technology:  </h3>
+										<p>Technology has revolutionized healthcare logistics, enabling real-time
+											tracking of products, the use of automated systems for inventory management,
+											and the ability to quickly respond to supply chain disruptions.</p>
+									</aside>
+									<aside>
+										<h2 class="small_title">Know the difference between Traditional and Digital
+											logistics system: </h2>
+									</aside>
+									<aside>
+										<div class="blog_cap">
+											Effective healthcare logistics is critical for ensuring that patients
+											receive the care they need in a timely and cost-effective manner. By
+											optimizing supply chain management, distribution and transportation,
+											inventory management, emergency response, reverse logistics, and leveraging
+											technology, healthcare organizations can improve patient outcomes, reduce
+											costs, and ensure a more sustainable healthcare system. This is where
+											technology is playing a key role in revolutionizing the logistics and supply
+											chain management in the healthcare industry.
+										</div>
+										<p>Here are some key differences between traditional and digital healthcare
+											logistics:</p>
+									</aside>
+									<aside>
+										<h3 class="small_title">Efficiency:   </h3>
+										<p>Digital healthcare logistics systems are generally more efficient than
+											traditional systems because they automate many processes such as inventory
+											management, ordering, and delivery scheduling. This reduces the time and
+											resources required to manage the supply chain.</p>
+									</aside>
+									<aside>
+										<h3 class="small_title">Accuracy:   </h3>
+										<p>Digital healthcare logistics systems are more accurate than traditional
+											systems because they rely on real-time data and automated processes. This
+											reduces the risk of errors and ensures that the right products are delivered
+											to the right place at the right time.</p>
+									</aside>
+									<aside>
+										<h3 class="small_title">Traceability:   </h3>
+										<p>Digital healthcare logistics systems provide better traceability than
+											traditional systems because they track every step of the supply chain
+											electronically. This makes it easier to identify the source of any problems
+											and take corrective action.</p>
+									</aside>
+									<aside>
+										<h3 class="small_title">Scalability:    </h3>
+										<p>Digital healthcare logistics systems are more scalable than traditional
+											systems because they can handle large volumes of data and transactions. This
+											makes it easier to expand the supply chain as needed to support growing
+											demand.</p>
+									</aside>
+									<aside>
+										<h3 class="small_title">Flexibility:    </h3>
+										<p>Digital healthcare logistics systems are more flexible than traditional
+											systems because they can adapt to changing needs and requirements. For
+											example, they can easily switch to new suppliers, adjust inventory levels,
+											or optimize delivery routes based on real-time data.</p>
+									</aside>
+									<div class="blog_cap_italic">
+										Effective healthcare logistics is critical for ensuring that patients receive
+										the care they need in a timely and cost-effective manner. By optimizing supply
+										chain management, distribution and transportation, inventory management,
+										emergency response, reverse logistics, and leveraging technology, healthcare
+										organizations can improve patient outcomes, reduce costs, and ensure a more
+										sustainable healthcare system. This is where technology is playing a key role in
+										revolutionizing the logistics and supply chain management in the healthcare
+										industry.
+									</div>
+									<figure>
+										<img src="assets/images/supply-chain.png" class="img-fluid" alt="supply-chain">
+									</figure>
+									<aside>
+										<h2 class="small_title">Why are EHR-Logic logistics services safe and secure? 
+										</h2>
+										<p>Our healthcare logistics system has the following features:</p>
+									</aside>
+									<aside>
+										<h3 class="small_title">Real-time tracking:     </h3>
+										<p>The system should provide real-time tracking of all medical equipment,
+											supplies, and medicines. This will help healthcare professionals to quickly
+											identify the location of critical items in case of emergencies.</p>
+									</aside>
+									<aside>
+										<h3 class="small_title">Inventory management:    </h3>
+										<p> The system will provide accurate inventory management, including stock
+											levels, expiry dates, and usage data. This will ensure that the right amount
+											of supplies are available at the right time and prevent wastage.</p>
+									</aside>
+									<aside>
+										<h3 class="small_title">Automated ordering:     </h3>
+										<p>The system will have the ability to automatically order supplies based on
+											predetermined thresholds, ensuring that there is no shortage of critical
+											items.</p>
+									</aside>
+									<aside>
+										<h3 class="small_title">Transportation management:      </h3>
+										<p>Our system will manage the transportation of medical supplies, including
+											route planning, tracking, and delivery scheduling. This will help ensure
+											timely delivery and reduce costs.</p>
+									</aside>
+									<aside>
+										<h3 class="small_title">Cold chain management:      </h3>
+										<p>The system will have the ability to manage cold chain logistics for
+											temperature-sensitive products, such as vaccines and blood products. This
+											will ensure that these products are stored and transported at the correct
+											temperature.</p>
+									</aside>
+
+									<aside>
+										<h3 class="small_title">Compliance management:      </h3>
+										<p>Our logistics will ensure compliance with regulatory requirements, including
+											licensing and accreditation, and provide audit trails for accountability.
+										</p>
+									</aside>
+									<aside>
+										<h3 class="small_title">Data analytics:      </h3>
+										<p>This proposed system will have the ability to collect and analyze data on
+											supply chain performance, including costs, lead times, and inventory levels.
+											This will help identify areas for improvement and optimize the supply chain.
+										</p>
+									</aside>
+									<aside>
+										<h3 class="small_title">Security:      </h3>
+										<p>Our logistics service has robust security features to protect sensitive
+											patient information and prevent unauthorized access to medical supplies by
+											our intelligent packaging solution.</p>
+									</aside>
+									<div class="row  blog_mid_flex">
+										<div class="col-12 col-md-4">
+											<figure>
+												<img src="assets/images/transformation-technology.png" alt="transform"
+													class="img-fluid">
+											</figure>
+										</div>
+										<div class="col-12 col-md-8">
+											<p>Digitalization of logistics has enabled healthcare providers to optimize
+												their operations and improve the delivery of patient care. From
+												automating inventory management to using artificial intelligence (AI)
+												for predictive analysis, technology has transformed the way healthcare
+												logistics is managed.</p>
+											<p>One of the key benefits of digitalization in healthcare logistics is the
+												optimization of inventory management. With the help of automated
+												inventory systems, healthcare providers can track the availability of
+												medical supplies and equipment in real-time. This enables them to manage
+												their inventory more effectively, reduce waste, and ensure that they
+												always have the necessary supplies on hand to meet patient needs.</p>
+										</div>
+
+
+
+									</div>
+									<aside>
+										<p>Another way technology is revolutionizing healthcare logistics is through the
+											use of drones for medical supply delivery. In remote areas where traditional
+											transportation methods are not available, drones can be used to deliver
+											essential medical supplies, such as medications and vaccines. This can
+											significantly reduce delivery times and improve patient outcomes.</p>
+										<p>AI-powered predictive analytics is another technology that is transforming
+											healthcare logistics. By analyzing data from various sources, including
+											patient records, medical equipment, and supply chain data, AI can predict
+											when supplies will be needed, which equipment is likely to fail, and when
+											maintenance is required. This helps healthcare providers to be proactive in
+											their logistics management, ensuring that supplies and equipment are always
+											available when needed.</p>
+										<p>In conclusion, technology is playing a crucial role in revolutionizing
+											healthcare logistics and supply chain management. With the help of
+											automation, AI, drones, and blockchain, healthcare providers can optimize
+											their operations, improve patient outcomes, and ensure that essential
+											medical supplies and equipment are always available when needed. As
+											technology continues to evolve, it will undoubtedly transform the healthcare
+											logistics landscape and bring about new and innovative solutions for patient
+											care.</p>
+									</aside>
+								</div>
+								<ul class="social">
+									<!-- <li>
+									<a href="#0">
+										<img src="assets/images/b-facebook.svg" alt="ehr facebook" class="img-fluid">
+									</a>
+								</li>
+								<li>
+									<a href="#0">
+										<img src="assets/images/b-youtube.svg" alt="ehr youtube" class="img-fluid">
+									</a>
+								</li>
+								<li>
+									<a href="#0">
+										<img src="assets/images/b-instagram.svg" alt="ehr instagram" class="img-fluid">
+									</a>
+								</li> -->
+									<li>
+										<a href="https://www.linkedin.com/company/ehrlogic/?originalSubdomain=in">
+											<img src="assets/images/b_linkedin.svg" alt="ehr instagram"
+												class="img-fluid">
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+		<!-- more blog section start here -->
+		<section class="pt-0">
+			<div class="contact">
+				<div class="row justify-content-center">
+					<div class="col-12 col-sm-12 col-md-12 blog_title_area text-white text-center">
+						<h2 class="sec_title">
+							You may also like this
+						</h2>
+						<p class="text-white">We provide the special tips and advice’s of heath care treatment and high
+						</p>
+
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row detail_more_blog">
+					<div class="blog_carousel">
+
+						<div class="item">
+							<div class="b_card">
+								<figure>
+									<img src="assets/images/ehr-standerd-main.png" class="img-fluid" alt="blog">
+								</figure>
+								<div class="b_detail">
+									<span class="category">Technical</span>
+									<span class="d-flex">
+
+										<span class="post_date">By EHR Logics</span>
+										<span class="post_date ps-2 pe-2">|</span>
+										<span class="post_date">25/02/2023</span>
+									</span>
+
+									<h3 class="small_title">
+										EHR Standards: Bridging the Gap between Healthcare Systems for Better
+										Interoperability
+
+									</h3>
+									<p>Electronic health records (EHRs) have become an essential component of healthcare
+										delivery in recent years. EHRs allow healthcare providers to access and share
+										patient information in real-time, enabling more efficient and coordinated care.
+									</p>
+									<a href="ehr-stander-blog.html" class="btn_link">
+										Read More
+										<span class="right_arrow_link"></span>
+									</a>
+									<a href="ehr-stander-blog.html" class="btn_link card_link">
+
+									</a>
+								</div>
+							</div>
+						</div>
+						
+						<div class="item">
+							<div class="b_card">
+								<figure>
+									<img src="assets/images/centerlize-repo-main.png" class="img-fluid" alt="blog">
+								</figure>
+								<div class="b_detail">
+									<span class="category">Technical</span>
+									<span class="d-flex">
+
+										<span class="post_date">By EHR Logics</span>
+										<span class="post_date ps-2 pe-2">|</span>
+										<span class="post_date">07/03/2023</span>
+									</span>
+									<h3 class="small_title">
+										EHR Centralized Repository
+
+									</h3>
+									<p>An Electronic Health Record (EHR) is a digital version of a patient's medical
+										record, which includes their medical history, diagnoses, medications, test
+										results, and other health-related information. EHRs are becoming increasingly
+										popular as they provide an efficient and secure way to store, manage, and share
+										patient health information between healthcare providers.</p>
+									<a href="centralize-repo-blog.html" class="btn_link">
+										Read More
+										<span class="right_arrow_link"></span>
+									</a>
+									<a href="centralize-repo-blog.html" class="btn_link card_link">
+
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="b_card">
+								<figure>
+									<img src="assets/images/health-logistic-main.png" class="img-fluid" alt="blog">
+								</figure>
+								<div class="b_detail">
+									<span class="category">Technical</span>
+									<span class="d-flex">
+
+										<span class="post_date">By EHR Logics</span>
+										<span class="post_date ps-2 pe-2">|</span>
+										<span class="post_date">22/03/2023</span>
+									</span>
+									<h3 class="small_title">
+										Health Care Logistic System
+
+									</h3>
+									<p>Effective supply chain management requires careful planning, coordination, and
+										communication between all parties involved in the supply chain. This includes
+										manufacturers, distributors, healthcare providers, and patients. By streamlining
+										the supply chain, healthcare providers can ensure that they have the resources
+										they need to provide quality care, while reducing waste, cost, and inefficiency.
+									</p>
+									<a href="healthcare-logistic-blog.html" class="btn_link">
+										Read More
+										<span class="right_arrow_link"></span>
+									</a>
+									<a href="healthcare-logistic-blog.html" class="btn_link card_link">
+
+									</a>
+								</div>
+							</div>
+						</div>
+
+
+
+					</div>
+				</div>
+
+				<!-- <div class="row">
+					<div class="col-12 d-flex justify-content-center pt-5">
+						<button class="btn btn_primary btn_normal" type="submit">Load More</button>
+					</div>
+				</div> -->
+			</div>
+		</section>
+
+		<!-- footer start here -->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<a href="index.html" class="foot_logo">
+						<img src="assets/images/logo-white.svg" alt="EHR logo" class="img-fluid">
+					</a>
+					<p class="text-white text-center">Committed for Seamless integration between healthcare providers,
+						leading to improved patient outcomes and streamlined operations.
+					</p>
+				</div>
+				<div class="row pb-4">
+					<ul class="foot_menu">
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="index.html#solution">Solutions</a>
+						</li>
+						<li>
+							<a href="index.html#product">Products</a>
+						</li>
+
+						<li>
+							<a href="blog.html">Blogs</a>
+						</li>
+					</ul>
+				</div>
+				<div class="row foot_bottom">
+					<div class="col-12 col-sm-6">
+						<span>Copyright © 2023 EHR Logic IT Service Pvt. Ltd. All Rights Reserved</span>
+					</div>
+					<div class="col-12 col-sm-6">
+						<ul>
+							<!-- <li>
+								<a href="#0">
+									<img src="assets/images/facebook.svg" alt="ehr facebook" class="img-fluid">
+								</a>
+							</li>
+							<li>
+								<a href="#0">
+									<img src="assets/images/youtube.svg" alt="ehr youtube" class="img-fluid">
+								</a>
+							</li>
+							<li>
+								<a href="#0">
+									<img src="assets/images/instagram.svg" alt="ehr instagram" class="img-fluid">
+								</a>
+							</li> -->
+							<li>
+								<a href="https://www.linkedin.com/company/ehrlogic/?originalSubdomain=in">
+									<img src="assets/images/linkedin.svg" alt="ehr instagram" class="img-fluid">
+								</a>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- footer end here -->
+		<!-- modals start here -->
+		<!-- Button trigger modal -->
+
+
+		<!-- Modal -->
+
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+	</script>
+	<script src="assets/js/jquery-3.6.3.min.js"></script>
+	<script src="assets/js/slick.min.js"></script>
+	<script src="assets/js/custom.js"></script>
+
+	<!-- blog carousol js start here -->
+	<script>
+		new WOW().init();
+	</script>
+	<script>
+		$('.blog_carousel').slick({
+			dots: true,
+			infinite: false,
+			arrows: true,
+			speed: 300,
+			slidesToShow: 4,
+			slidesToScroll: 4,
+			margin: 20,
+			prevArrow: '<button class="slide-arrow prev-arrow"></button>',
+			nextArrow: '<button class="slide-arrow next-arrow"></button>',
+			responsive: [{
+					breakpoint: 1300,
+					settings: {
+						slidesToShow: 3,
+						slidesToScroll: 3,
+						infinite: true,
+						dots: true
+					}
+				},
+				{
+					breakpoint: 768,
+					settings: {
+						slidesToShow: 2,
+						slidesToScroll: 2
+					}
+				},
+				{
+					breakpoint: 420,
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1
+					}
+				},
+				{
+					breakpoint: 480,
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1
+					}
+				}
+				// You can unslick at a given breakpoint now by adding:
+				// settings: "unslick"
+				// instead of a settings object
+			]
+		});
+	</script>
+</body>
+
+</html>
